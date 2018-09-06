@@ -239,7 +239,7 @@ void multiplicar(){
 }
 
 void divi(){
-	int div1=0,div2=0;
+		float div1=0,div2=0;
 	int mul=1;
 	nodo *aux1 = ultimo;
 	nodo *aux2 = ultimo2;
@@ -254,7 +254,7 @@ void divi(){
 		mul*=10;
 		aux2=aux2->anterior;
 	}
-	printf("%i",div1/div2);
+	printf("%.2f",div1/div2);
 }
 
 int main(int argc, char *argv[]) {
